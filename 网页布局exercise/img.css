@@ -1,0 +1,62 @@
+*{
+    margin: 1px;
+    padding: 10px;
+}
+html{
+    overflow: hidden;
+}
+
+div{
+    background-color: #F6F6F0;
+    
+    overflow-y: hidden
+}
+/* img{
+    max-width:600px;
+    width:600px;
+    width:expression(document.body.clientWidth>600?”600px”:”auto”);
+    overflow:hidden
+} */
+
+.background{
+    /* background-color: aqua; */
+
+    background: url(成品.png) no-repeat;
+    
+    display: flex;
+    justify-content: center;
+    margin-left: 5vw;
+    width: 89vw;
+    height: 100vh;
+    background-size: 100% 100%;
+}
+
+
+.screenshot{
+    
+    background-size: 100% 100%;
+    width: 8vw;
+    height: 9vh;
+    object-fit: fill;
+    position: absolute;
+    bottom: 87vh;
+    right: 10vw;
+    /* border-radius: 100px; */
+    cursor: pointer;
+}
+.reDo{
+    
+    background-size: 100% 100%;
+    position: absolute;
+    /* width: 13vw;
+    height: 10vh; */
+    bottom: 87vh;
+    left: 10vw;
+    cursor: pointer;
+}
+img:hover{
+    /* overflow: hidden; */
+    transform: scale(120%,120%);
+    -webkit-transform: scale(120%,120%);
+    -moz-transform: scale(120%,120%);
+}
